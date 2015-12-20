@@ -1,0 +1,33 @@
+nav{
+  margin-bottom:10px;text-align:center;
+}
+nav a {
+  display:inline-block;text-decoration:none;padding:5px 10px;margin:5px;text-transform:uppercase;font-size:11px;color:#FFF;
+}
+nav a:hover {
+  text-decoration:none;color:#EEE;
+}
+.container{
+  width:calc( 100% - 20px );max-width:500px;padding:30px 0;margin:auto; 
+}
+.container h1{
+  font-size:32px;font-weight:bold;
+}
+.post .post-content {
+  padding:10px 12px;border:1px solid #ddd;margin:15px auto;text-decoration:none;display:block;
+}
+.post .post-content a:hover{
+  text-decoration:none
+}
+
+.post .post-content h2{
+  display:block;text-transform:uppercase;font-size:13px;color:#666;
+}
+
+.post .post-content p.date{
+  color:#999;font-size:9px;margin-bottom:5px;
+}
+
+.post .post-content p.blog{
+  color:#999;white-space:pre-wrap;
+}
